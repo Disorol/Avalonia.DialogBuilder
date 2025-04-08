@@ -1,0 +1,14 @@
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\bin\Debug\net8.0\Avalonia.DialogBuilder.deps.json
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\bin\Debug\net8.0\Avalonia.DialogBuilder.dll
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\bin\Debug\net8.0\Avalonia.DialogBuilder.pdb
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\obj\Debug\net8.0\Avalonia.DialogBuilder.csproj.AssemblyReference.cache
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\obj\Debug\net8.0\Avalonia\resources
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\obj\Debug\net8.0\Avalonia.DialogBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\obj\Debug\net8.0\Avalonia.DialogBuilder.AssemblyInfoInputs.cache
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\obj\Debug\net8.0\Avalonia.DialogBuilder.AssemblyInfo.cs
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\obj\Debug\net8.0\Avalonia.DialogBuilder.csproj.CoreCompileInputs.cache
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\obj\Debug\net8.0\Avalonia\Avalonia.DialogBuilder.dll
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\obj\Debug\net8.0\Avalonia\Avalonia.DialogBuilder.pdb
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\obj\Debug\net8.0\refint\Avalonia\Avalonia.DialogBuilder.dll
+C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\obj\Debug\net8.0\ref\Avalonia.DialogBuilder.dll

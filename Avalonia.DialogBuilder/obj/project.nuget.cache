@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "C7gCr/U1dS5m00VzvufBBzC5vutVSuZ1Z4aeVkiDt6V02A4Q/X7dwQoC/qeWTYlJATY7QVelQdoWacX215B4Jw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\T\\.nuget\\packages\\avalonia\\11.2.6\\avalonia.11.2.6.nupkg.sha512",
+    "C:\\Users\\T\\.nuget\\packages\\avalonia.buildservices\\0.0.31\\avalonia.buildservices.0.0.31.nupkg.sha512",
+    "C:\\Users\\T\\.nuget\\packages\\avalonia.reactiveui\\11.2.6\\avalonia.reactiveui.11.2.6.nupkg.sha512",
+    "C:\\Users\\T\\.nuget\\packages\\avalonia.remote.protocol\\11.2.6\\avalonia.remote.protocol.11.2.6.nupkg.sha512",
+    "C:\\Users\\T\\.nuget\\packages\\dynamicdata\\8.4.1\\dynamicdata.8.4.1.nupkg.sha512",
+    "C:\\Users\\T\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
+    "C:\\Users\\T\\.nuget\\packages\\reactiveui\\20.1.1\\reactiveui.20.1.1.nupkg.sha512",
+    "C:\\Users\\T\\.nuget\\packages\\splat\\15.1.1\\splat.15.1.1.nupkg.sha512",
+    "C:\\Users\\T\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\T\\.nuget\\packages\\system.reactive\\6.0.1\\system.reactive.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

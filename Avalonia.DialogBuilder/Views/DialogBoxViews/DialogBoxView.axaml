@@ -1,0 +1,58 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="533" d:DesignHeight="160"
+        MaxWidth="533" MaxHeight="{Binding MaxHeight}"
+        WindowStartupLocation="CenterOwner"
+        RequestedThemeVariant="Light"
+        x:Class="Avalonia.DialogBuilder.Views.DialogBoxView"
+        Title="{Binding Title}"
+        Icon="{Binding Icon}">
+  <Grid Margin="16">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+
+    <ScrollViewer Grid.Row="0" HorizontalAlignment="Left" VerticalScrollBarVisibility="Auto" VerticalAlignment="Top" MaxHeight="90">
+      <TextBlock Grid.Row="0"
+                 Text="{Binding Text}"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Margin="0,0,0,8"
+                 MaxWidth="525" />
+    </ScrollViewer>
+
+    <ItemsControl x:Name="ButtonItemsControl"
+                  Grid.Row="1"
+                  ItemsSource="{Binding ButtonViewModels}"
+                  HorizontalAlignment="Right"
+                  Margin="0,12,0,0">
+      <ItemsControl.ItemsPanel>
+        <ItemsPanelTemplate>
+          <WrapPanel Orientation="Horizontal" FlowDirection="RightToLeft" />
+        </ItemsPanelTemplate>
+      </ItemsControl.ItemsPanel>
+      <ItemsControl.ItemTemplate>
+        <DataTemplate>
+          <Button Width="{Binding DataContext.ButtonWidth, RelativeSource={RelativeSource AncestorType=Window}}"
+                  Content="{Binding Text}"
+                  Command="{Binding Command}"
+                  Margin="4,4,0,0"
+                  Height="32"
+                  HorizontalContentAlignment="Center">
+            <Button.Styles>
+              <Style Selector="Button > ContentPresenter">
+                <Setter Property="TextTrimming" Value="CharacterEllipsis" />
+              </Style>
+            </Button.Styles>
+            <ToolTip.Tip>
+              <TextBlock Text="{Binding Text}" />
+            </ToolTip.Tip>
+          </Button>
+        </DataTemplate>
+      </ItemsControl.ItemTemplate>
+    </ItemsControl>
+  </Grid>
+</Window>
