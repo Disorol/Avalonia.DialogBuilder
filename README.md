@@ -5,11 +5,7 @@ A lightweight dialog builder library for Avalonia applications that provides a f
 ## Features
 - Fluent API for dialog configuration
 - Pre-styled dialog types (Error, Warning, Information, Success)
-<<<<<<< HEAD
-- Support for multiple buttons with custom actions
-=======
 - Support for multiple buttons
->>>>>>> d38c4ef82ee81bb3b6934e0478afbb9ad3949b75
 - Custom content support (text or controls)
 - Flexible styling and layout options
 - Global dialog settings
@@ -21,8 +17,6 @@ A lightweight dialog builder library for Avalonia applications that provides a f
 dotnet add package Avalonia.DialogBuilder
 ```
 
-<<<<<<< HEAD
-=======
 ## Dialog Setup with ReactiveUI
 
 To use dialogs in your application, you need to set up three components:
@@ -70,22 +64,10 @@ private async Task DoShowDialogAsync(
 
 This setup creates a proper MVVM-friendly dialog system
 
->>>>>>> d38c4ef82ee81bb3b6934e0478afbb9ad3949b75
 ### Basic Usage
 
 Simple dialog with text:
 ```csharp
-<<<<<<< HEAD
-var result = await DialogBox.ShowAsync(new DialogBoxViewModelBuilder()
-    .SetText("Do you want to save changes?")
-    .SetButtons(
-        new DialogButton { Text = "Save", CommandParameter = true },
-        new DialogButton { Text = "Cancel", CommandParameter = false }
-    )
-    .Build());
-
-if ((bool)result.Parameter)
-=======
 var builder = new DialogBoxViewModelBuilder().SetText("Do you want to save changes?")
                                              .SetButtons(
                                                  new DialogButtonBase { Text = "Save", CommandParameter = true },
@@ -95,7 +77,6 @@ DialogBoxViewModel dialogBoxViewModel = director.Build(builder);
 DialogBoxResult result = await ShowTestDialog.Handle(dialogBoxViewModel);
 
 if (result.Parameter is true)
->>>>>>> d38c4ef82ee81bb3b6934e0478afbb9ad3949b75
 {
     // Handle save
 }
@@ -103,31 +84,16 @@ if (result.Parameter is true)
 
 Pre-styled error dialog:
 ```csharp
-<<<<<<< HEAD
-await DialogBox.ShowAsync(new DialogBoxViewModelBuilder()
-    .UseDirector(new ErrorDialogBoxDirector())
-    .SetText("Failed to connect to the server.")
-    .SetButtons(new DialogButton { Text = "OK" })
-    .Build());
-=======
 var builder = new DialogBoxViewModelBuilder().SetText("Failed to connect to the server.")
                                              .SetButtons(
                                                  new DialogButtonBase { Text = "OK" });
 var director = new ErrorDialogBoxDirector();
 DialogBoxViewModel dialogBoxViewModel = director.Build(builder);
 await ShowTestDialog.Handle(dialogBoxViewModel);
->>>>>>> d38c4ef82ee81bb3b6934e0478afbb9ad3949b75
 ```
 
 Dialog with custom control:
 ```csharp
-<<<<<<< HEAD
-await DialogBox.ShowAsync(new DialogBoxViewModelBuilder()
-    .UseDirector(new InformationDialogBoxDirector())
-    .SetControl(new MyCustomControl())
-    .SetButtons(new DialogButton { Text = "Close" })
-    .Build());
-=======
 var viewModel = new TestViewModel();
 var view = new TextView();
 view.DataContext = viewModel;
@@ -136,18 +102,13 @@ var builder = new DialogBoxViewModelBuilder().SetControl(view)
 var director = new InformationDialogBoxDirector();
 DialogBoxViewModel dialogBoxViewModel = director.Build(builder);
 await ShowTestDialog.Handle(dialogBoxViewModel);
->>>>>>> d38c4ef82ee81bb3b6934e0478afbb9ad3949b75
 ```
 
 ### Customization
 
 Styling and layout:
 ```csharp
-<<<<<<< HEAD
-var dialog = new DialogBoxViewModelBuilder()
-=======
 var builder = new DialogBoxViewModelBuilder()
->>>>>>> d38c4ef82ee81bb3b6934e0478afbb9ad3949b75
     .SetMaxWidth(500)
     .SetMaxHeight(400)
     .SetTextFontSize(14)
@@ -165,12 +126,6 @@ InformationDialogBoxDirector.Title = "Information";
 SuccessDialogBoxDirector.Title = "Success";
 ```
 
-<<<<<<< HEAD
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-=======
 ## Example Project
 
 The repository includes a TestingProject that demonstrates:
@@ -180,4 +135,3 @@ The repository includes a TestingProject that demonstrates:
 - Proper MVVM architecture with dialog handling
 
 You can use this project as a reference for integrating the library into your own applications.
->>>>>>> d38c4ef82ee81bb3b6934e0478afbb9ad3949b75
