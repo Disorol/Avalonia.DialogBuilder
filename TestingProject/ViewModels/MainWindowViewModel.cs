@@ -51,7 +51,7 @@ namespace TestingProject.ViewModels
 
         public async void ExecuteOpenTestCustomControlDialogBox()
         {
-            var viewModel = new TestViewModel() { Text = "Hello!" };
+            var viewModel = new TestViewModel() { Text = "Button" };
             var view = new TextView();
             view.DataContext = viewModel;
             var builder = new DialogBoxViewModelBuilder().SetControl(view)
