@@ -14,7 +14,7 @@ A lightweight dialog builder library for Avalonia applications that provides a f
 
 ### Installation
 ```bash
-dotnet add package Avalonia.DialogBuilder
+dotnet add package Disorol.Avalonia.DialogBoxBuilder
 ```
 
 ## Dialog Setup with ReactiveUI
