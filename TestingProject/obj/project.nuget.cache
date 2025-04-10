@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "45sqX+HKbT9BI1bcwivCfo6dUIvCcFeScRzQ/cJYMrH7DmByvHI4SJKiqV6tjdKMGlQJdqU71cv092dTKN2CuA==",
+  "dgSpecHash": "k5wPvAxB9LLHM/U/uQ3hd6bjwxjlXEkHOD+Qcg5N0KQ4M+OZkpowVkLR+Ep47FjecBG5VSZIkIwXFxOb6KmhKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\TestingProject\\TestingProject.csproj",
+  "projectFilePath": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\TestingProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\T\\.nuget\\packages\\avalonia\\11.2.6\\avalonia.11.2.6.nupkg.sha512",
     "C:\\Users\\T\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.22045.20230930\\avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",

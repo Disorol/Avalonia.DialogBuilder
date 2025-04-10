@@ -1,4 +1,4 @@
-using System.Windows.Input;
+﻿using System.Windows.Input;
 using Avalonia.Threading;
 using Avalonia.Controls;
 using Avalonia.DialogBuilder.ViewModels;
@@ -6,6 +6,7 @@ using Avalonia.ReactiveUI;
 using ReactiveUI;
 using System.Reactive.Linq;
 using System.Reactive;
+using Avalonia.Controls.Templates;
 
 namespace Avalonia.DialogBuilder.Views;
 

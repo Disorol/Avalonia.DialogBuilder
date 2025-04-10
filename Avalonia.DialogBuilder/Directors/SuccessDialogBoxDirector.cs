@@ -9,7 +9,7 @@ namespace Avalonia.DialogBuilder.Directors
     {
         private static readonly WindowIcon s_icon = new WindowIcon(AssetLoader.Open(new Uri("avares://Avalonia.DialogBuilder/Assets/Icons/checkmark.ico")));
 
-        public DialogBoxViewModel Build(IDialogBoxViewModelBuilder builder)
+        public DialogBoxViewModel Build(DialogBoxViewModelBuilder builder)
         {
             return builder.SetIcon(s_icon)
                           .SetTitle("TODO")

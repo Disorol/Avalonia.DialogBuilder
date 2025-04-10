@@ -2,10 +2,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="533" d:DesignHeight="160"
-        MaxWidth="533" MaxHeight="{Binding MaxHeight}"
-        WindowStartupLocation="CenterOwner"
-        RequestedThemeVariant="Light"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="150"
+        MaxWidth="{Binding MaxWidth}" MaxHeight="{Binding MaxHeight}"
+        WindowStartupLocation="{Binding WindowStartupLocation}"
+        RequestedThemeVariant="{Binding RequestedThemeVariant}"
+        CanResize="{Binding CanResize}"
         x:Class="Avalonia.DialogBuilder.Views.DialogBoxView"
         Title="{Binding Title}"
         Icon="{Binding Icon}">
@@ -15,15 +16,20 @@
       <RowDefinition Height="Auto" />
     </Grid.RowDefinitions>
 
-    <ScrollViewer Grid.Row="0" HorizontalAlignment="Left" VerticalScrollBarVisibility="Auto" VerticalAlignment="Top" MaxHeight="90">
-      <TextBlock Grid.Row="0"
-                 Text="{Binding Text}"
-                 TextWrapping="Wrap"
-                 VerticalAlignment="Top"
-                 Margin="0,0,0,8"
-                 MaxWidth="525" />
+    <ScrollViewer Grid.Row="0" HorizontalAlignment="Stretch" VerticalScrollBarVisibility="Auto" VerticalAlignment="Stretch" Padding="0,0,12,0">
+      <ContentControl Content="{Binding Content}">
+        <ContentControl.Styles>
+          <!-- Стиль для текста по умолчанию -->
+          <Style Selector="ContentControl > TextBlock">
+            <Setter Property="FontSize" Value="{Binding TextFontSize}" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+            <Setter Property="Margin" Value="0,0,0,8" />
+          </Style>
+        </ContentControl.Styles>
+      </ContentControl>
     </ScrollViewer>
-
+    
     <ItemsControl x:Name="ButtonItemsControl"
                   Grid.Row="1"
                   ItemsSource="{Binding ButtonViewModels}"
@@ -31,7 +37,7 @@
                   Margin="0,12,0,0">
       <ItemsControl.ItemsPanel>
         <ItemsPanelTemplate>
-          <WrapPanel Orientation="Horizontal" FlowDirection="RightToLeft" />
+          <WrapPanel Orientation="Horizontal" FlowDirection="{Binding ButtonWrappingFlowDirection}" />
         </ItemsPanelTemplate>
       </ItemsControl.ItemsPanel>
       <ItemsControl.ItemTemplate>
@@ -39,6 +45,7 @@
           <Button Width="{Binding DataContext.ButtonWidth, RelativeSource={RelativeSource AncestorType=Window}}"
                   Content="{Binding Text}"
                   Command="{Binding Command}"
+                  FontSize="{Binding ButtonTextFontSize}"
                   Margin="4,4,0,0"
                   Height="32"
                   HorizontalContentAlignment="Center">

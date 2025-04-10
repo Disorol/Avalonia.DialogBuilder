@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C7gCr/U1dS5m00VzvufBBzC5vutVSuZ1Z4aeVkiDt6V02A4Q/X7dwQoC/qeWTYlJATY7QVelQdoWacX215B4Jw==",
+  "dgSpecHash": "JQa9BrEC49Ipx1tA/+g2K51bth9I4p7lXaIp7s546CtbdxjFaCM8YSCM/3daXeFMBRFIoeKM3XaykijOdULm7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj",
+  "projectFilePath": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\T\\.nuget\\packages\\avalonia\\11.2.6\\avalonia.11.2.6.nupkg.sha512",
     "C:\\Users\\T\\.nuget\\packages\\avalonia.buildservices\\0.0.31\\avalonia.buildservices.0.0.31.nupkg.sha512",

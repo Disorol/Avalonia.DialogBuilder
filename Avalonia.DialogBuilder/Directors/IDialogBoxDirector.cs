@@ -5,6 +5,6 @@ namespace Avalonia.DialogBuilder.Directors
 {
     public interface IDialogBoxDirector
     {
-        public DialogBoxViewModel Build(IDialogBoxViewModelBuilder builder);
+        public DialogBoxViewModel Build(DialogBoxViewModelBuilder builder);
     }
 }

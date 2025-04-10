@@ -15,9 +15,9 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Avalonia.DialogBuilder
-build_property.ProjectDir = C:\Users\T\source\repos\smp-lab3-1\Avalonia.DialogBuilder\Avalonia.DialogBuilder\
+build_property.ProjectDir = C:\Users\T\source\repos\Avalonia.DialogBuilder\Avalonia.DialogBuilder\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/T/source/repos/smp-lab3-1/Avalonia.DialogBuilder/Avalonia.DialogBuilder/Views/DialogBoxViews/DialogBoxView.axaml]
+[C:/Users/T/source/repos/Avalonia.DialogBuilder/Avalonia.DialogBuilder/Views/DialogBoxViews/DialogBoxView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

@@ -1,18 +1,20 @@
 ﻿using Avalonia.Controls;
 using Avalonia.DialogBuilder.ViewModels;
+using Avalonia.Media;
+using Avalonia.Styling;
 using ReactiveUI;
 
 namespace Avalonia.DialogBuilder.Builders
 {
-    public class DialogBoxViewModelBuilder : IDialogBoxViewModelBuilder
+    public class DialogBoxViewModelBuilder
     {
         protected DialogBoxViewModel _viewModel = new();
 
         public DialogBoxViewModel Build() => _viewModel;
 
-        public DialogBoxViewModelBuilder SetIcon(WindowIcon icon)
+        public DialogBoxViewModelBuilder SetIcon(WindowIcon windowIcon)
         {
-            _viewModel.Icon = icon;
+            _viewModel.Icon = windowIcon;
             return this;
         }
 
@@ -28,9 +30,9 @@ namespace Avalonia.DialogBuilder.Builders
             return this;
         }
 
-        public DialogBoxViewModelBuilder SetMaxHeight(double maxHeight)
+        public DialogBoxViewModelBuilder SetControl(Control control)
         {
-            _viewModel.MaxHeight = maxHeight;
+            _viewModel.Content = control;
             return this;
         }
 
@@ -64,6 +66,54 @@ namespace Avalonia.DialogBuilder.Builders
 
             _viewModel.ButtonViewModels.Add(buttonViewModel);
 
+            return this;
+        }
+
+        public DialogBoxViewModelBuilder SetMaxHeight(double height)
+        {
+            _viewModel.MaxHeight = height;
+            return this;
+        }
+
+        public DialogBoxViewModelBuilder SetMaxWidth(double width)
+        {
+            _viewModel.MaxWidth = width;
+            return this;
+        }
+
+        public DialogBoxViewModelBuilder SetWindowStartupLocation(WindowStartupLocation windowStartupLocation)
+        {
+            _viewModel.WindowStartupLocation = windowStartupLocation;
+            return this;
+        }
+
+        public DialogBoxViewModelBuilder SetRequestedThemeVariant(ThemeVariant themeVariant)
+        {
+            _viewModel.RequestedThemeVariant = themeVariant;
+            return this;
+        }
+
+        public DialogBoxViewModelBuilder SetTextFontSize(double fontSize)
+        {
+            _viewModel.TextFontSize = fontSize;
+            return this;
+        }
+
+        public DialogBoxViewModelBuilder SetButtonTextFontSize(double fontSize)
+        {
+            _viewModel.ButtonTextFontSize = fontSize;
+            return this;
+        }
+
+        public DialogBoxViewModelBuilder SetButtonWrappingFlowDirection(FlowDirection flowDirection)
+        {
+            _viewModel.ButtonWrappingFlowDirection = flowDirection;
+            return this;
+        }
+
+        public DialogBoxViewModelBuilder SetCanResize(bool canResize)
+        {
+            _viewModel.CanResize = canResize;
             return this;
         }
     }

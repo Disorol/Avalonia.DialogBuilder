@@ -1772,11 +1772,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\TestingProject\\TestingProject.csproj",
+      "projectUniqueName": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\TestingProject.csproj",
       "projectName": "TestingProject",
-      "projectPath": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\TestingProject\\TestingProject.csproj",
+      "projectPath": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\TestingProject.csproj",
       "packagesPath": "C:\\Users\\T\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\TestingProject\\obj\\",
+      "outputPath": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1797,8 +1797,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj": {
-              "projectPath": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj"
+            "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj": {
+              "projectPath": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj"
             }
           }
         }
