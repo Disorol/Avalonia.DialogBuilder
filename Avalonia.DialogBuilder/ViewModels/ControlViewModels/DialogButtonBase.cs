@@ -3,7 +3,7 @@
     /// <summary>
     /// Base class for buttons that have both text and command parameter
     /// </summary>
-    public class ParameterizedTextButton : IParameterizedButton, ITextButton
+    public class DialogButtonBase : IParameterizedButton, ITextButton
     {
         /// <summary>
         /// Gets or sets the parameter to be passed to the button's command when executed

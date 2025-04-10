@@ -1,10 +1,10 @@
 ﻿using Avalonia.DialogBuilder.Builders;
 using Avalonia.DialogBuilder.Directors;
 using Avalonia.DialogBuilder.ViewModels;
-using PLCSoldier.UIServices.Directors;
 using ReactiveUI;
 using System.Reactive.Linq;
 using System.Windows.Input;
+using TestingProject.Views;
 
 namespace TestingProject.ViewModels
 {
@@ -12,22 +12,53 @@ namespace TestingProject.ViewModels
     {
         public Interaction<DialogBoxViewModel, DialogBoxResult?> ShowTestDialog { get; } = new();
 
-        public ICommand OpenTestDialogBoxCommand { get; }
+        public ICommand OpenTestSaveDialogBoxCommand { get; }
+        public ICommand OpenTestErrorMessageDialogBoxCommand { get; }
+        public ICommand OpenTestCustomControlDialogBoxCommand { get; }
 
         public MainWindowViewModel()
         {
-            OpenTestDialogBoxCommand = ReactiveCommand.Create(ExecuteOpenTestDialogBox);
+            OpenTestSaveDialogBoxCommand = ReactiveCommand.Create(ExecuteOpenTestSaveDialogBox);
+            OpenTestErrorMessageDialogBoxCommand = ReactiveCommand.Create(ExecuteOpenTestErrorMessageDialogBox);
+            OpenTestCustomControlDialogBoxCommand = ReactiveCommand.Create(ExecuteOpenTestCustomControlDialogBox);
         }
 
-        public async void ExecuteOpenTestDialogBox()
+        public async void ExecuteOpenTestSaveDialogBox()
         {
-            DialogBoxViewModelBuilder builder = new DialogBoxViewModelBuilder().SetText("ПРЕДУПРЕЖДЕНИЕ").SetMaxButtonWidth(300).SetButtonTextFontSize(20)
-                                                                    .SetButtons(new ParameterizedTextButton() { CommandParameter = true, Text = "Confirm" }, new ParameterizedTextButton() { CommandParameter = false, Text = "Cancel" }, new ParameterizedTextButton() { CommandParameter = false, Text = "Cancel" }, new ParameterizedTextButton() { CommandParameter = false, Text = "Cancel" }, new ParameterizedTextButton() { CommandParameter = false, Text = "Cancel" });
-            IDialogBoxDirector director = new WarningDialogBoxDirector();
-            
+            var builder = new DialogBoxViewModelBuilder().SetText("Do you want to save changes?")
+                                                         .SetButtons(
+                                                             new DialogButtonBase { Text = "Save", CommandParameter = true },
+                                                             new DialogButtonBase { Text = "Cancel", CommandParameter = false });
+            var director = new WarningDialogBoxDirector();
             DialogBoxViewModel dialogBoxViewModel = director.Build(builder);
-            DialogBoxResult interactionResult = await ShowTestDialog.Handle(dialogBoxViewModel);
+            DialogBoxResult result = await ShowTestDialog.Handle(dialogBoxViewModel);
 
+            if (result.Parameter is true)
+            {
+                // Handle save
+            }
+        }
+
+        public async void ExecuteOpenTestErrorMessageDialogBox()
+        {
+            var builder = new DialogBoxViewModelBuilder().SetText("Failed to connect to the server.")
+                                             .SetButtons(
+                                                 new DialogButtonBase { Text = "OK" });
+            var director = new ErrorDialogBoxDirector();
+            DialogBoxViewModel dialogBoxViewModel = director.Build(builder);
+            await ShowTestDialog.Handle(dialogBoxViewModel);
+        }
+
+        public async void ExecuteOpenTestCustomControlDialogBox()
+        {
+            var viewModel = new TestViewModel() { Text = "Hello!" };
+            var view = new TextView();
+            view.DataContext = viewModel;
+            var builder = new DialogBoxViewModelBuilder().SetControl(view)
+                                                         .SetButtons(new DialogButtonBase { Text = "Close" });
+            var director = new InformationDialogBoxDirector();
+            DialogBoxViewModel dialogBoxViewModel = director.Build(builder);
+            await ShowTestDialog.Handle(dialogBoxViewModel);
         }
     }
 }

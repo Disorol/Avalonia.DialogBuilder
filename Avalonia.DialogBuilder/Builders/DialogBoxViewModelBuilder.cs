@@ -66,7 +66,7 @@ namespace Avalonia.DialogBuilder.Builders
         /// Sets the dialog's buttons, replacing any existing buttons
         /// </summary>
         /// <param name="buttons">Collection of button configurations</param>
-        public DialogBoxViewModelBuilder SetButtons(params ParameterizedTextButton[] buttons)
+        public DialogBoxViewModelBuilder SetButtons(params DialogButtonBase[] buttons)
         {
             _viewModel.ButtonViewModels.Clear();
 
@@ -89,7 +89,7 @@ namespace Avalonia.DialogBuilder.Builders
         /// Adds a single button to the dialog's button collection
         /// </summary>
         /// <param name="button">Button configuration to add</param>
-        public DialogBoxViewModelBuilder AddButton(ParameterizedTextButton button)
+        public DialogBoxViewModelBuilder AddButton(DialogButtonBase button)
         {
             ButtonViewModel buttonViewModel = new()
             {

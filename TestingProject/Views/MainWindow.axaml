@@ -13,8 +13,27 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <Button Command="{Binding OpenTestDialogBoxCommand}"
-            Content="Open a test dialog box"
+  <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+    <Button Command="{Binding OpenTestSaveDialogBoxCommand}"
+            Content="Save dialog box"
             HorizontalAlignment="Center"
-            VerticalAlignment="Center"/>
+            VerticalAlignment="Center"
+            HorizontalContentAlignment="Center"
+            Margin="5"
+            Width="200"/>
+    <Button Command="{Binding OpenTestErrorMessageDialogBoxCommand}"
+            Content="Error message dialog box"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            HorizontalContentAlignment="Center"
+            Margin="5"
+            Width="200"/>
+    <Button Command="{Binding OpenTestCustomControlDialogBoxCommand}"
+            Content="Custom control dialog box"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            HorizontalContentAlignment="Center"
+            Margin="5"
+            Width="200"/>
+  </StackPanel>
 </Window>

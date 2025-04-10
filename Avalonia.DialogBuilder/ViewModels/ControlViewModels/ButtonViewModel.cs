@@ -5,7 +5,7 @@ namespace Avalonia.DialogBuilder.ViewModels
     /// <summary>
     /// View model for a button that combines text, command, and parameter functionality
     /// </summary>
-    public class ButtonViewModel : ParameterizedTextButton, ICommandButton
+    public class ButtonViewModel : DialogButtonBase, ICommandButton
     {
         /// <summary>
         /// Gets or sets the command to be executed when the button is clicked

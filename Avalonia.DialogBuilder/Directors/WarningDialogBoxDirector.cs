@@ -1,12 +1,8 @@
 ﻿using Avalonia.Controls;
 using Avalonia.DialogBuilder.Builders;
-using Avalonia.DialogBuilder.Directors;
 using Avalonia.DialogBuilder.ViewModels;
 using Avalonia.Platform;
 
-// Current namespace is incorrect
-namespace PLCSoldier.UIServices.Directors
-// Should be
 namespace Avalonia.DialogBuilder.Directors
 {
     /// <summary>
