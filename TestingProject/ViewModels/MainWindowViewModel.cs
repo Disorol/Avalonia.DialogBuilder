@@ -3,12 +3,8 @@ using Avalonia.DialogBuilder.Directors;
 using Avalonia.DialogBuilder.ViewModels;
 using PLCSoldier.UIServices.Directors;
 using ReactiveUI;
-using System.Linq;
-using System.Reactive;
 using System.Reactive.Linq;
-using System.Resources;
 using System.Windows.Input;
-using TestingProject.Views;
 
 namespace TestingProject.ViewModels
 {
@@ -25,9 +21,7 @@ namespace TestingProject.ViewModels
 
         public async void ExecuteOpenTestDialogBox()
         {
-            var view = new TextView();
-            view.DataContext = new TestViewModel() { Text = "UserControl test text" };
-            DialogBoxViewModelBuilder builder = new DialogBoxViewModelBuilder().SetControl(view)
+            DialogBoxViewModelBuilder builder = new DialogBoxViewModelBuilder().SetText("ПРЕДУПРЕЖДЕНИЕ").SetMaxButtonWidth(300).SetButtonTextFontSize(20)
                                                                     .SetButtons(new ParameterizedTextButton() { CommandParameter = true, Text = "Confirm" }, new ParameterizedTextButton() { CommandParameter = false, Text = "Cancel" }, new ParameterizedTextButton() { CommandParameter = false, Text = "Cancel" }, new ParameterizedTextButton() { CommandParameter = false, Text = "Cancel" }, new ParameterizedTextButton() { CommandParameter = false, Text = "Cancel" });
             IDialogBoxDirector director = new WarningDialogBoxDirector();
             

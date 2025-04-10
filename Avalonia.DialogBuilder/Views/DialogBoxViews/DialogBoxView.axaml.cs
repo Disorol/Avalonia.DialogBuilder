@@ -6,7 +6,6 @@ using Avalonia.ReactiveUI;
 using ReactiveUI;
 using System.Reactive.Linq;
 using System.Reactive;
-using Avalonia.Controls.Templates;
 
 namespace Avalonia.DialogBuilder.Views;
 

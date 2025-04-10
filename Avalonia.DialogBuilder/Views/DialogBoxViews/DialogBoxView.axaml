@@ -19,7 +19,6 @@
     <ScrollViewer Grid.Row="0" HorizontalAlignment="Stretch" VerticalScrollBarVisibility="Auto" VerticalAlignment="Stretch" Padding="0,0,12,0">
       <ContentControl Content="{Binding Content}">
         <ContentControl.Styles>
-          <!-- Стиль для текста по умолчанию -->
           <Style Selector="ContentControl > TextBlock">
             <Setter Property="FontSize" Value="{Binding TextFontSize}" />
             <Setter Property="TextWrapping" Value="Wrap" />
@@ -45,9 +44,10 @@
           <Button Width="{Binding DataContext.ButtonWidth, RelativeSource={RelativeSource AncestorType=Window}}"
                   Content="{Binding Text}"
                   Command="{Binding Command}"
-                  FontSize="{Binding ButtonTextFontSize}"
+                  FontSize="{Binding DataContext.ButtonTextFontSize, RelativeSource={RelativeSource AncestorType=Window}}"
+                  Height="{Binding DataContext.ButtonHeight, RelativeSource={RelativeSource AncestorType=Window}}"
                   Margin="4,4,0,0"
-                  Height="32"
+                  VerticalContentAlignment="Center"
                   HorizontalContentAlignment="Center">
             <Button.Styles>
               <Style Selector="Button > ContentPresenter">
