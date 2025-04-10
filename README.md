@@ -132,6 +132,8 @@ The repository includes a TestingProject that demonstrates:
 - Complete setup of ReactiveUI Interactions for dialog handling
 - Practical examples of using Avalonia.DialogBuilder in a real application
 - Implementation of various dialog types and configurations
-- Proper MVVM architecture with dialog handling
 
 You can use this project as a reference for integrating the library into your own applications.
+
+## License
+This project is licensed under the MIT License.
