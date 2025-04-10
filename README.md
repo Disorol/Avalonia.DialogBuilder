@@ -17,6 +17,53 @@ A lightweight dialog builder library for Avalonia applications that provides a f
 dotnet add package Avalonia.DialogBuilder
 ```
 
+## Dialog Setup with ReactiveUI
+
+To use dialogs in your application, you need to set up three components:
+
+### 1. Window Class
+Your window must inherit from `ReactiveWindow<TViewModel>` where `TViewModel` is your window's view model type:
+```csharp
+public partial class MainWindow : ReactiveWindow<MainWindowViewModel>
+```
+
+### 2. ViewModel Setup
+In your window's view model, declare an Interaction property that will handle dialog operations:
+
+```csharp
+public Interaction<DialogBoxViewModel, DialogBoxResult?> ShowDialog { get; } = new();
+```
+
+This property acts as a bridge between your view model and the actual dialog window.
+
+### 3. Dialog Handler in Window
+In your window's code-behind, implement the dialog showing logic:
+
+```csharp
+public MainWindow()
+{
+    InitializeComponent();
+    
+    // Register dialog handler
+    this.WhenActivated(action => 
+        action(ViewModel!.ShowDialog.RegisterHandler(DoShowDialogAsync)));
+}
+
+private async Task DoShowDialogAsync(
+    IInteractionContext<DialogBoxViewModel, DialogBoxResult?> interaction)
+{
+    var dialog = new DialogBoxView
+    {
+        DataContext = interaction.Input
+    };
+
+    var result = await dialog.ShowDialog<DialogBoxResult?>(this);
+    interaction.SetOutput(result);
+}
+```
+
+This setup creates a proper MVVM-friendly dialog system
+
 ### Basic Usage
 
 Simple dialog with text:
@@ -78,3 +125,13 @@ WarningDialogBoxDirector.Title = "Warning";
 InformationDialogBoxDirector.Title = "Information";
 SuccessDialogBoxDirector.Title = "Success";
 ```
+
+## Example Project
+
+The repository includes a TestingProject that demonstrates:
+- Complete setup of ReactiveUI Interactions for dialog handling
+- Practical examples of using Avalonia.DialogBuilder in a real application
+- Implementation of various dialog types and configurations
+- Proper MVVM architecture with dialog handling
+
+You can use this project as a reference for integrating the library into your own applications.
