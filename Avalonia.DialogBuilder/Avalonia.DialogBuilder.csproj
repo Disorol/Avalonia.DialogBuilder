@@ -4,7 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-  </PropertyGroup>
+    <Version>1.0.1</Version>
+    <Description>A dialog builder library for Avalonia applications that provides a fluent interface for creating customizable dialog windows</Description>
+    <Authors>Mardanov Timur (Disorol)</Authors>
+    <PackageId>Disorol.Avalonia.DialogBoxBuilder</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>avalonia;dialog;ui;builder-pattern;mvvm;reactive;window;modal;popup;messagebox;dialogbox;cross-platform;desktop;gui;interface;customizable;fluent-api;dotnet;csharp</PackageTags>
+    <PackageProjectUrl>https://github.com/Disorol/Avalonia.DialogBuilder</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Disorol/Avalonia.DialogBuilder</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>  
 
   <ItemGroup>
     <None Remove="Assets\Icons\checkmark.ico" />

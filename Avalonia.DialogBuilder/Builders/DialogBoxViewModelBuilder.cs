@@ -164,22 +164,12 @@ namespace Avalonia.DialogBuilder.Builders
         }
 
         /// <summary>
-        /// Sets the minimum width for dialog buttons
+        /// Sets the width for dialog buttons
         /// </summary>
-        /// <param name="width">Minimum width in pixels</param>
-        public DialogBoxViewModelBuilder SetMinButtonWidth(double width)
+        /// <param name="width">Width in pixels</param>
+        public DialogBoxViewModelBuilder SetButtonWidth(double width)
         {
-            _viewModel.MinButtonWidth = width;
-            return this;
-        }
-
-        /// <summary>
-        /// Sets the maximum width for dialog buttons
-        /// </summary>
-        /// <param name="width">Maximum width in pixels</param>
-        public DialogBoxViewModelBuilder SetMaxButtonWidth(double width)
-        {
-            _viewModel.MaxButtonWidth = width;
+            _viewModel.ButtonWidth = width;
             return this;
         }
 

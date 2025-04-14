@@ -5,10 +5,10 @@
   },
   "projects": {
     "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj",
-        "projectName": "Avalonia.DialogBuilder",
+        "projectName": "Disorol.Avalonia.DialogBoxBuilder",
         "projectPath": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj",
         "packagesPath": "C:\\Users\\T\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\obj\\",
@@ -132,10 +132,6 @@
               "version": "[11.2.6, )"
             },
             "Avalonia.Desktop": {
-              "target": "Package",
-              "version": "[11.2.6, )"
-            },
-            "Avalonia.Diagnostics": {
               "target": "Package",
               "version": "[11.2.6, )"
             },

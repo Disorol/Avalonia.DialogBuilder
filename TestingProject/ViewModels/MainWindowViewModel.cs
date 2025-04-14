@@ -42,8 +42,7 @@ namespace TestingProject.ViewModels
         public async void ExecuteOpenTestErrorMessageDialogBox()
         {
             var builder = new DialogBoxViewModelBuilder().SetText("Failed to connect to the server.")
-                                             .SetButtons(
-                                                 new DialogButtonBase { Text = "OK" });
+                                                         .SetButtons(new DialogButtonBase { Text = "OK" });
             var director = new ErrorDialogBoxDirector();
             DialogBoxViewModel dialogBoxViewModel = director.Build(builder);
             await ShowTestDialog.Handle(dialogBoxViewModel);

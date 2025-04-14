@@ -11,13 +11,16 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Avalonia.DialogBuilder")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Mardanov Timur (Disorol)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("A dialog builder library for Avalonia applications that provides a fluent interfa" +
+    "ce for creating customizable dialog windows")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af23617c9debabafede2ae06bb70cac99393d693")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e819058b52f16383e900fde17a2e279e479e04ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("Avalonia.DialogBuilder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Avalonia.DialogBuilder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/Disorol/Avalonia.DialogBuilder")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

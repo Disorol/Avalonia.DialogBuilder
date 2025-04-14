@@ -125,34 +125,15 @@ namespace Avalonia.DialogBuilder.ViewModels
             set => this.RaiseAndSetIfChanged(ref _buttonHeight, value);
         }
 
-        private double _minButtonWidth = 100;
+        private double _buttonWidth = 120;
         /// <summary>
-        /// Gets or sets the minimum width for dialog buttons in pixels
+        /// Gets or sets the width for dialog buttons in pixels
         /// </summary>
-        public double MinButtonWidth
+        public double ButtonWidth
         {
-            get => _minButtonWidth;
-            set => this.RaiseAndSetIfChanged(ref _minButtonWidth, value);
+            get => _buttonWidth;
+            set => this.RaiseAndSetIfChanged(ref _buttonWidth, value);
         }
-
-        private double _maxButtonWidth = 150;
-        /// <summary>
-        /// Gets or sets the maximum width for dialog buttons in pixels
-        /// </summary>
-        public double MaxButtonWidth
-        {
-            get => _maxButtonWidth;
-            set => this.RaiseAndSetIfChanged(ref _maxButtonWidth, value);
-        }
-
-        /// <summary>
-        /// Gets the calculated width for all buttons in the dialog.
-        /// The width is calculated based on the widest button text and current font size
-        /// </summary>
-        public double ButtonWidth => ButtonViewModels.Any() 
-            ? Math.Max(MinButtonWidth,
-                Math.Min(ButtonViewModels.Max(b => (b.Text?.Length ?? 0)) * (ButtonTextFontSize * 0.7), MaxButtonWidth))
-            : MinButtonWidth;
 
         private FlowDirection _buttonWrappingFlowDirection = FlowDirection.RightToLeft;
         /// <summary>

@@ -1,5 +1,15 @@
-echo ".vs/" >> .gitignore
-echo "bin/" >> .gitignore
-echo "obj/" >> .gitignore
-echo "*.suo" >> .gitignore
-echo "*.user" >> .gitignore
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Avalonia build artifacts
+bin/
+obj/
+
+# Rider
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

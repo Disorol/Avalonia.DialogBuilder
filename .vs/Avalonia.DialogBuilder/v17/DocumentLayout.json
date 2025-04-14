@@ -1,50 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\",
+  "WorkspaceRootPath": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\smp-lab3-1\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\views\\dialogboxviews\\dialogboxview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|solutionrelative:avalonia.dialogbuilder\\views\\dialogboxviews\\dialogboxview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\builders\\dialogboxviewmodelbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|solutionrelative:avalonia.dialogbuilder\\builders\\dialogboxviewmodelbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|c:\\users\\t\\source\\repos\\smp-lab3-1\\avalonia.dialogbuilder\\testingproject\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\testingproject\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|solutionrelative:testingproject\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|c:\\users\\t\\source\\repos\\smp-lab3-1\\avalonia.dialogbuilder\\testingproject\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|solutionrelative:testingproject\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\smp-lab3-1\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\avalonia.dialogbuilder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|solutionrelative:avalonia.dialogbuilder\\avalonia.dialogbuilder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\smp-lab3-1\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\views\\dialogboxviews\\dialogboxview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\views\\dialogboxviews\\dialogboxview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|solutionrelative:avalonia.dialogbuilder\\views\\dialogboxviews\\dialogboxview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|c:\\users\\t\\source\\repos\\smp-lab3-1\\avalonia.dialogbuilder\\testingproject\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|solutionrelative:testingproject\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\viewmodels\\dialogboxviewmodels\\dialogboxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|solutionrelative:avalonia.dialogbuilder\\viewmodels\\dialogboxviewmodels\\dialogboxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|c:\\users\\t\\source\\repos\\smp-lab3-1\\avalonia.dialogbuilder\\testingproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|solutionrelative:testingproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\avalonia.dialogbuilder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|solutionrelative:avalonia.dialogbuilder\\avalonia.dialogbuilder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\smp-lab3-1\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\directors\\errordialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|solutionrelative:avalonia.dialogbuilder\\directors\\errordialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\testingproject\\viewmodels\\testviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|solutionrelative:testingproject\\viewmodels\\testviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\smp-lab3-1\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\directors\\warningdialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\testingproject\\views\\textview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|solutionrelative:testingproject\\views\\textview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\testingproject\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|solutionrelative:testingproject\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\directors\\warningdialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|solutionrelative:avalonia.dialogbuilder\\directors\\warningdialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\smp-lab3-1\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\directors\\successdialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\directors\\successdialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|solutionrelative:avalonia.dialogbuilder\\directors\\successdialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\smp-lab3-1\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\directors\\informationdialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\views\\dialogboxviews\\dialogboxview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|solutionrelative:avalonia.dialogbuilder\\views\\dialogboxviews\\dialogboxview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\testingproject\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|solutionrelative:testingproject\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\directors\\errordialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|solutionrelative:avalonia.dialogbuilder\\directors\\errordialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\directors\\idialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|solutionrelative:avalonia.dialogbuilder\\directors\\idialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\testingproject\\views\\textview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|solutionrelative:testingproject\\views\\textview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\avalonia.dialogbuilder\\directors\\informationdialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF618B22-4AA6-453E-BA5C-9E26E98C1674}|Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj|solutionrelative:avalonia.dialogbuilder\\directors\\informationdialogboxdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\testingproject\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|solutionrelative:testingproject\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|c:\\users\\t\\source\\repos\\avalonia.dialogbuilder\\testingproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B45207E2-6B79-4EA1-A304-B8F790DC73C9}|TestingProject\\TestingProject.csproj|solutionrelative:testingproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\TestView.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestingProject\\Views\\TestView.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\TestView.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestingProject\\Views\\TestView.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,8 +90,62 @@
       "DocumentGroups": [
         {
           "DockedHeight": 207,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DialogBoxViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\ViewModels\\DialogBoxViewModels\\DialogBoxViewModel.cs",
+              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\ViewModels\\DialogBoxViewModels\\DialogBoxViewModel.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\ViewModels\\DialogBoxViewModels\\DialogBoxViewModel.cs",
+              "RelativeToolTip": "Avalonia.DialogBuilder\\ViewModels\\DialogBoxViewModels\\DialogBoxViewModel.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAQwIEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T11:28:08.95Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DialogBoxView.axaml",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml",
+              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml",
+              "RelativeToolTip": "Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T20:59:30.078Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "TestingProject\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "TestingProject\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T11:37:34.867Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DialogBoxViewModelBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Builders\\DialogBoxViewModelBuilder.cs",
+              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Builders\\DialogBoxViewModelBuilder.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Builders\\DialogBoxViewModelBuilder.cs",
+              "RelativeToolTip": "Avalonia.DialogBuilder\\Builders\\DialogBoxViewModelBuilder.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAAwKwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:43:12.272Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -95,46 +185,176 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DialogBoxView.axaml",
-              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml",
-              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml",
-              "ToolTip": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml",
-              "RelativeToolTip": "Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-08T20:59:30.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Avalonia.DialogBuilder.csproj",
-              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj",
               "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj",
-              "ToolTip": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj",
               "RelativeToolTip": "Avalonia.DialogBuilder\\Avalonia.DialogBuilder.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-08T20:58:45.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DialogBoxView.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml.cs",
-              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml.cs",
-              "ToolTip": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml.cs",
-              "RelativeToolTip": "Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAkAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T20:58:45.272Z",
+              "WhenOpened": "2025-04-10T16:23:44.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TextView.axaml",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\TextView.axaml",
+              "RelativeDocumentMoniker": "TestingProject\\Views\\TextView.axaml",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\TextView.axaml",
+              "RelativeToolTip": "TestingProject\\Views\\TextView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T11:36:46.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DialogBoxView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml.cs",
+              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml.cs",
+              "RelativeToolTip": "Avalonia.DialogBuilder\\Views\\DialogBoxViews\\DialogBoxView.axaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T10:26:25.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SuccessDialogBoxDirector.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\SuccessDialogBoxDirector.cs",
+              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Directors\\SuccessDialogBoxDirector.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\SuccessDialogBoxDirector.cs",
+              "RelativeToolTip": "Avalonia.DialogBuilder\\Directors\\SuccessDialogBoxDirector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:50:02.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WarningDialogBoxDirector.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\WarningDialogBoxDirector.cs",
+              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Directors\\WarningDialogBoxDirector.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\WarningDialogBoxDirector.cs",
+              "RelativeToolTip": "Avalonia.DialogBuilder\\Directors\\WarningDialogBoxDirector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:50:57.156Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "TestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\ViewModels\\TestViewModel.cs",
+              "RelativeDocumentMoniker": "TestingProject\\ViewModels\\TestViewModel.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\ViewModels\\TestViewModel.cs",
+              "RelativeToolTip": "TestingProject\\ViewModels\\TestViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T18:55:51.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "TestingProject\\Views\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\MainWindow.axaml.cs",
+              "RelativeToolTip": "TestingProject\\Views\\MainWindow.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T11:19:37.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "TestingProject\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "TestingProject\\Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T07:36:11.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TextView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\TextView.axaml.cs",
+              "RelativeDocumentMoniker": "TestingProject\\Views\\TextView.axaml.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\TextView.axaml.cs",
+              "RelativeToolTip": "TestingProject\\Views\\TextView.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T19:27:35.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDialogBoxDirector.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\IDialogBoxDirector.cs",
+              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Directors\\IDialogBoxDirector.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\IDialogBoxDirector.cs",
+              "RelativeToolTip": "Avalonia.DialogBuilder\\Directors\\IDialogBoxDirector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T10:07:29.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorDialogBoxDirector.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\ErrorDialogBoxDirector.cs",
+              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Directors\\ErrorDialogBoxDirector.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\ErrorDialogBoxDirector.cs",
+              "RelativeToolTip": "Avalonia.DialogBuilder\\Directors\\ErrorDialogBoxDirector.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:51:03.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InformationDialogBoxDirector.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\InformationDialogBoxDirector.cs",
+              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Directors\\InformationDialogBoxDirector.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\InformationDialogBoxDirector.cs",
+              "RelativeToolTip": "Avalonia.DialogBuilder\\Directors\\InformationDialogBoxDirector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:50:46.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TestView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\TestView.axaml.cs",
+              "RelativeDocumentMoniker": "TestingProject\\Views\\TestView.axaml.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\TestView.axaml.cs",
+              "RelativeToolTip": "TestingProject\\Views\\TestView.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T19:02:54.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TestView.axaml",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\TestView.axaml",
+              "RelativeDocumentMoniker": "TestingProject\\Views\\TestView.axaml",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Views\\TestView.axaml",
+              "RelativeToolTip": "TestingProject\\Views\\TestView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T18:57:04.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\TestingProject\\ViewModels\\ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "TestingProject\\ViewModels\\ViewModelBase.cs",
-              "ToolTip": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\TestingProject\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\ViewModels\\ViewModelBase.cs",
               "RelativeToolTip": "TestingProject\\ViewModels\\ViewModelBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -142,86 +362,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\TestingProject\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "TestingProject\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\TestingProject\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "TestingProject\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T20:51:58.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\TestingProject\\Views\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "TestingProject\\Views\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\TestingProject\\Views\\MainWindow.axaml",
-              "RelativeToolTip": "TestingProject\\Views\\MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-08T20:51:26.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\TestingProject\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Program.cs",
               "RelativeDocumentMoniker": "TestingProject\\Program.cs",
-              "ToolTip": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\TestingProject\\Program.cs",
+              "ToolTip": "C:\\Users\\T\\source\\repos\\Avalonia.DialogBuilder\\TestingProject\\Program.cs",
               "RelativeToolTip": "TestingProject\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T20:51:16.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ErrorDialogBoxDirector.cs",
-              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\ErrorDialogBoxDirector.cs",
-              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Directors\\ErrorDialogBoxDirector.cs",
-              "ToolTip": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\ErrorDialogBoxDirector.cs",
-              "RelativeToolTip": "Avalonia.DialogBuilder\\Directors\\ErrorDialogBoxDirector.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T20:51:03.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WarningDialogBoxDirector.cs",
-              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\WarningDialogBoxDirector.cs",
-              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Directors\\WarningDialogBoxDirector.cs",
-              "ToolTip": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\WarningDialogBoxDirector.cs",
-              "RelativeToolTip": "Avalonia.DialogBuilder\\Directors\\WarningDialogBoxDirector.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAACKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T20:50:57.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InformationDialogBoxDirector.cs",
-              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\InformationDialogBoxDirector.cs",
-              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Directors\\InformationDialogBoxDirector.cs",
-              "ToolTip": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\InformationDialogBoxDirector.cs",
-              "RelativeToolTip": "Avalonia.DialogBuilder\\Directors\\InformationDialogBoxDirector.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T20:50:46.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SuccessDialogBoxDirector.cs",
-              "DocumentMoniker": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\SuccessDialogBoxDirector.cs",
-              "RelativeDocumentMoniker": "Avalonia.DialogBuilder\\Directors\\SuccessDialogBoxDirector.cs",
-              "ToolTip": "C:\\Users\\T\\source\\repos\\smp-lab3-1\\Avalonia.DialogBuilder\\Avalonia.DialogBuilder\\Directors\\SuccessDialogBoxDirector.cs",
-              "RelativeToolTip": "Avalonia.DialogBuilder\\Directors\\SuccessDialogBoxDirector.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T20:50:02.054Z"
             }
           ]
         },
